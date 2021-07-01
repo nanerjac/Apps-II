@@ -1,0 +1,12 @@
+3. Faça um programa que calcule e mostre a área de um trapézio. Sabe-se que: Área = ((base maior + base menor) * altura) /2;
+
+void main() {
+
+  double b1 = 5.5;
+  double b2 = 3;
+  double altura = 5.2;
+  double result = ((b1 + b2) * altura) /2;
+  
+  print("Área de um trapézio: $result");
+   
+}

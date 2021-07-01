@@ -1,0 +1,14 @@
+5. Faça um programa que compare os nomes de pessoas e retorne o texto: É a mesma pessoa, do contrário, retorne o texto: Os nomes não conferem;
+
+void main() {
+
+  String nome1 = "Paulinha";
+  String nome2 = "Diego";
+  
+  if(nome1 == nome2 ){
+    print("É a mesma pessoa.");
+  }
+  else{
+    print("Não é a mesma pessoa.");
+  }
+}

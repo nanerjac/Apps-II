@@ -1,0 +1,12 @@
+1. Criar um programa onde ele recebe o nome, sobre nome, idade e endereço. Estes dados precisam ser impressos na tela;
+
+void main() {
+
+  String nome = 'Ana';
+  String sobreNome = 'Paula';
+  int idade = 28;
+  String endereco = "Rua 27, Nº13";
+  
+  print("Nome: $nome \n" + "Sobre Nome: $sobreNome \n" + "Idade: $idade \n" + "Endereço: $endereco" );
+   
+}
