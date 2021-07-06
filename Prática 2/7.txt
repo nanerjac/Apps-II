@@ -1,0 +1,24 @@
+void main(){
+  int big = 0;
+  int small = 300;
+  double media = 0;
+  
+  const List numero = [160,170,184,169,192,195,175,187,190,180,161,164,191,197,186];
+  
+  for (int num in numero )
+  { 
+    if (num > big){
+      big = num;
+    }
+    if (num < small){
+      small = num;
+    }
+    media = media + num;
+  }
+  
+  media = media/15;
+  
+  print ("A maior altura é $big cm");
+  print ("A menor altura é $small cm");
+  print ("A media de altura é $media cm");
+}

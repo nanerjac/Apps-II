@@ -1,0 +1,13 @@
+void main(){
+   double val = 0;
+  const List numero = [1,4,6,8,10,9,5,5,5,10];
+  
+  for (int num in numero )
+  {
+    val = val + num;
+  }
+  
+  val = val/10;
+  print ("A média da turma é $val");
+  
+}

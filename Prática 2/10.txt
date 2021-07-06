@@ -1,0 +1,28 @@
+void main(){
+  
+   int total = 0;
+   int sete = 0;
+   int qua = 0;
+   int vin = 0;
+  
+   const List multa = [7,14,21,21,5,12];
+  
+   for (int num in multa )
+  {
+    total++;
+    if (num <= 7){
+      sete++;
+    }
+    else if (num <= 14){
+      qua++;
+    }
+    else
+      vin++;
+  }
+  
+  print ("O total de multas é $total");
+  print ("Número de multas de até RS500,00 é $sete");
+  print ("Número de multas de RS501,00 a RS1000,00 é $qua");
+  print ("Número de multas acima de RS1001,00 é $vin");
+ 
+}

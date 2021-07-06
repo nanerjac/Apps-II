@@ -1,0 +1,11 @@
+void main(){
+  int val = 9;
+  int result = 0;
+  print("Tabuada do $val");
+  
+  for(int i = 0; i<=10; i++){
+    result = val*i;
+    print("$val X $i = $result");
+  }
+  
+}
