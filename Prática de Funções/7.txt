@@ -1,0 +1,17 @@
+7. Faça uma função que recebe um valor inteiro e verifica se o valor é par. A função deve retornar 1 se o número for par e 0 se for ímpar
+
+void main(){
+  int num = 3;
+  print(parImpar(num).toString());
+} 
+
+int parImpar(int num){
+  int retorno;
+  if(num%2 == 0){
+    retorno = 1;
+  }else{
+    retorno = 0;
+  }
+  
+  return retorno;
+}

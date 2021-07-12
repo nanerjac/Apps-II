@@ -1,0 +1,35 @@
+9-. Faça um programa que leia dois valores e imprima:
+  a) se o primeiro valor for maior que o segundo, a lista de valores do primeiro até o segundo;
+  b) se o primeiro valor for menor que o segundo a lista de valores do segundo até o primeiro em ordem decrescente;
+  c) se ambos forem iguais a mensagem "valores iguais".
+
+
+void main() {
+  int pri = 29;
+  int seg = 30;
+  
+  numero(pri,seg);
+  
+}
+
+void numero(int pri, int seg) {
+  
+  if(pri<seg){
+
+    for(int x = seg; x >= pri; x--){
+      
+      print ("$x");
+    }
+    
+  }
+  else if (seg<pri){
+    
+    for(int x = pri; x >= seg ; x--){
+      
+      print ("$x");
+    }
+   
+  }
+  else
+    print("Valores Iguais");
+}

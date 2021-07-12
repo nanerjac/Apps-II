@@ -1,0 +1,26 @@
+6. Faça uma função que recebe a idade de um nadador por parâmetro e retorna , também por parâmetro, a categoria desse nadador de acordo com a tabela abaixo 
+(imagem2):
+
+void main(){
+  int idade = 16;
+  print("A categoria do nadador é a " + categoria(idade).toString());
+} 
+
+String categoria(int idade){
+  String categoria = "";
+  if(idade < 5){
+    categoria = "Não há categoria para essa idade!";
+  }else if(idade >= 5 && idade <= 7){
+    categoria = "Infantil A";
+  }else if(idade >= 8 && idade <= 10){
+    categoria = "Infantil B";
+  }else if(idade >= 11 && idade <= 13){
+    categoria = "Juvenil A";
+  }else if(idade >= 14 && idade <= 17){
+    categoria = "Juvenil B";
+  }else if(idade >=18){
+    categoria = "Adulto";
+  }
+  
+  return categoria;
+}

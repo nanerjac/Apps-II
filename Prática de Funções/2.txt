@@ -1,0 +1,17 @@
+void main(){
+  int num1 = 5;
+  int num2 = 4;
+  
+  print("Dos números informados, o menor é o " + menorNumero(num1, num2).toString());
+} 
+
+int menorNumero(int num1, int num2){
+  int menor;
+  if(num1 < num2){
+    menor = num1;
+  }else{
+    menor = num2;
+  }
+  
+  return menor;
+}

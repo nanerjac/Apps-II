@@ -1,0 +1,22 @@
+4. Faça uma função que leia um número não determinado de valores positivos e retorna a média aritmética dos mesmos.
+
+void main() {
+  numero();
+}
+
+void numero() {
+  double rec = 0;
+  int i = 0;
+  const List numero = [3, 3, 3, 6, 9];
+
+  for (int num in numero) {
+    if (num > 0) {
+      rec = rec + num;
+      i++;
+    }
+  }
+  
+  rec = rec/i;
+  
+  print("A média é $rec");
+}
